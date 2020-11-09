@@ -1,0 +1,130 @@
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    outline: none;
+    /* border: 1px black solid; */
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    padding: 0 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 8rem;
+  }
+
+  .nav-list {
+      display: flex;
+      font-size: 1.3rem;
+  }
+  .nav-list li {
+      margin: 2rem;
+      display: block;
+      cursor: pointer;
+      color: #737373;
+  }
+
+  a:visited {
+      color: #737373;
+  }
+
+  button { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 75px;
+      height: 35px;
+      margin-top: -10px;
+    outline: none;
+    border: none;
+    background-color: #4386FA; 
+    font-size: 1.67rem;
+  }
+.btn {
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-size {
+    width: 272px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+input[type=search] {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    margin-bottom: 1rem;
+}
+
+.input-search {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=submit] {
+    margin: 1rem;
+    padding: 1.1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    color: #616060;
+}
